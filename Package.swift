@@ -19,5 +19,10 @@ let package = Package(
         .testTarget(
             name: "RaghulsNeuralEngineTests",
             dependencies: ["RaghulsNeuralEngine"]),
+        .binaryTarget(
+            name: "OTGFunctions",
+            url: "https://github.com/rdraghul/RNEOTGtrials/OTGFunctions.framework.zip",
+            checksum: "<checksum>"
+        )
     ]
 )
