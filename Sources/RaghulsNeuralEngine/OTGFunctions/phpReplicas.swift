@@ -8,11 +8,11 @@
 
 import Foundation
 
-func str_replace(_ search: String, _ replace: String, in originalString: String) -> String {
+public func str_replace(_ search: String, _ replace: String, in originalString: String) -> String {
     return originalString.replacingOccurrences(of: search, with: replace)
 }
 
-func explode(_ delimiter: Character, _ string: String) -> [String] {
+public func explode(_ delimiter: Character, _ string: String) -> [String] {
     return string.split(separator: delimiter).map(String.init)
 }
 
