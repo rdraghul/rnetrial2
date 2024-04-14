@@ -22,7 +22,6 @@ let package = Package(
         .binaryTarget(
             name: "OTGFunctions",
             url: "https://github.com/rdraghul/RNEOTGtrials/OTGFunctions.framework.zip",
-            checksum: "<checksum>"
         )
     ]
 )
